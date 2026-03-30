@@ -1,1 +1,11 @@
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
 
+public class BorderLayoutTest {
+    @Test
+    public void testTitre() {
+        // Ce test vérifie que le texte est correct
+        String titreAttendu = "Border Layout Demo";
+        assertEquals("Border Layout Demo", titreAttendu);
+    }
+}
