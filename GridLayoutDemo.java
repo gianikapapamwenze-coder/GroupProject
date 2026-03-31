@@ -6,7 +6,7 @@ public class GridLayoutDemo {
 
         JFrame frame = new JFrame("Working with Layouts (GridLayouts)");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
+    
         frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
 
         frame.setLayout(new GridLayout(1, 3));
